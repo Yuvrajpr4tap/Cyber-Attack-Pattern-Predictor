@@ -11,7 +11,8 @@ echo "========================================"
 # Step 1: Install Python dependencies
 echo ""
 echo "[1/4] Installing Python dependencies..."
-pip install -r requirements.txt --upgrade --only-binary :all:
+pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt
 
 # Step 2: Generate training data if it doesn't exist
 echo ""
