@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: attack-pattern-predictor
+    runtime: python
+    runtimeVersion: 3.11.7
+    startCommand: gunicorn -w 4 -b 0.0.0.0:$PORT backend.app:app
+    buildCommand: bash build.sh
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: PYTHONUNBUFFERED
+        value: true
