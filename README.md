@@ -307,6 +307,28 @@ Returns pre-configured example sequences
 
 ---
 
+## 🚀 **Deployment**
+
+### Cloud Deployment on Render
+Deploy this application to the cloud in minutes using **Render**:
+
+**[📖 Full Render Deployment Guide](RENDER_DEPLOYMENT.md)**
+
+**Quick Summary:**
+1. Push to GitHub (already done!)
+2. Create a Web Service on Render
+3. Set build command: `bash build.sh`
+4. Render automatically:
+   - Installs dependencies
+   - Generates training data
+   - Trains models
+   - Builds React frontend
+5. Get a live URL in minutes!
+
+**Free Tier Available:** 750 free hours/month (enough for continuous hosting)
+
+---
+
 ## 🎨 **Technologies Used**
 
 ### Backend
