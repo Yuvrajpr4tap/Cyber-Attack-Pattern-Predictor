@@ -12,7 +12,10 @@ echo "========================================"
 echo ""
 echo "[1/4] Installing Python dependencies..."
 pip install --upgrade pip setuptools wheel
-pip install -r requirements.txt
+pip install --no-build-isolation --no-cache-dir -r requirements.txt 2>&1 || {
+    echo "First install attempt failed, trying with pre-built wheels only..."
+    pip install --only-binary :all: -r requirements.txt
+}
 
 # Step 2: Generate training data if it doesn't exist
 echo ""
