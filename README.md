@@ -376,4 +376,4 @@ Built as a demonstration of:
 
 ---
 
-**Built with ❤️ using React, Flask, and TensorFlow**
+Built using React, Flask, and TensorFlow
