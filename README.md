@@ -342,32 +342,6 @@ Returns pre-configured example sequences
 
 ---
 
-## 🤝 **Contributing**
-
-This is a demonstration project. Feel free to:
-- Add more attack patterns
-- Improve model architectures
-- Enhance the UI/UX
-- Add new features
-
----
-
-## 📝 **License**
-
-This project is for educational and portfolio purposes.
-
----
-
-## 👨‍💻 **Author**
-
-Built as a demonstration of:
-- Full-stack development skills
-- Machine learning expertise
-- Cybersecurity knowledge
-- System design capabilities
-
----
-
 ## 🌟 **Acknowledgments**
 
 - Attack patterns based on MITRE ATT&CK framework
